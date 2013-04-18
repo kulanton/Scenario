@@ -1,0 +1,17 @@
+# PostreSQL
+
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: scenario_development
+  pool: 5
+  username: anton
+  password: Iamaprogrammer
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: scenario_test
+  pool: 5
+  username: anton
+  password: Iamaprogrammer
